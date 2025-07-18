@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌍 Travel Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌍 Travel Planner</h1>
+    <p>Plan your dream trips with ease.</p>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <h2>🏝 Explore Destinations</h2>
+      <div class="images">
+  <figure>
+    <img src="image1.jpeg" alt="Sakleshpura" />
+    <figcaption>Sakleshpura</figcaption>
+  </figure>
+  <figure>
+    <img src="image2.jpeg" alt="Bisle" />
+    <figcaption>Bisle</figcaption>
+  </figure>
+  <figure>
+    <img src="image3.jpeg" alt="Madikeri" />
+    <figcaption>Madikeri</figcaption>
+  </figure>
+  <figure>
+    <img src="images4.jpeg" alt="Bisle Ghat" />
+    <figcaption>Bisle Ghat</figcaption>
+  </figure>
+  <figure>
+    <img src="images5.jpeg" alt="Waterfalls" />
+    <figcaption>Waterfalls</figcaption>
+  </figure>
+  <figure>
+    <img src="image6.jpeg" alt="Kodagu" />
+    <figcaption>Kodagu</figcaption>
+  </figure>
+  <figure>
+    <img src="image7.jpeg" alt="Manjunatha" />
+    <figcaption>Manjunatha</figcaption>
+  </figure>
+
+</div>
+
+    </section>
+
+    <section class="form-section">
+      <form id="tripForm">
+        <input type="text" id="travelerName" placeholder="Your Name" required />
+        <input type="text" id="source" placeholder="Source Location" required />
+        <input type="text" id="destination" placeholder="Destination" required />
+        <input type="date" id="date" required />
+        <input type="text" id="contact" placeholder="Contact Number" required />
+        <button type="submit">+ Add Trip</button>
+      </form>
+    </section>
+
+    <section class="trip-list-section">
+      <h2>📅 Upcoming Trips</h2>
+      <div id="tripList" class="trip-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by Travel Planner Team</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
